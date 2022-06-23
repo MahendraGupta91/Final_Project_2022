@@ -1,0 +1,76 @@
+body{
+    background-image: url('img1/pexels-roman-odintsov-4871119.jpg');
+    /* background-size: 1200px 1000px; */
+    background-size: cover;
+    
+}
+.page1{
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid grey;
+    top: 10%;
+    left: 15%;
+    border-radius: 100px; 
+    background-color: lightgreen;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.my-form{
+    border-radius: 5px;
+    padding: 20%;
+    margin: 30px;
+}
+.t{
+    
+    width: 120%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+.button{
+position: absolute;
+top: 73%;
+left: 40%;
+background-color: lightgreen;
+padding: 10px 15px;
+color: wheat;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 18px;
+border-radius: 5px;
+box-shadow: 6px 6px 29px -4px rgba(240, 231, 231, 0.644);
+text-decoration: none;
+translate: 0.45;
+}
+.page2{
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid grey;
+    top: 10%;
+    left: 50%;
+    border-radius: 100px; 
+    background-color: lightgreen;
+    
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 22%;
+    border-radius: 10px;
+}

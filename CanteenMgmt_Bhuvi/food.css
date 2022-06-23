@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    color: green;
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2% ease-in;
+}
+nav ul a:hover{
+    background-color: green;
+    color: white;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2% ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+@media screen and (max-width:1000px){
+    .items{
+        grid-template-columns: repeat(2,1f);
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .items{
+        grid-template-columns: repeat(1,1f);
+    }
+    
+}
+.button{
+    position: absolute;
+    top: 67%;
+    left: 80%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button1{
+    position: absolute;
+    top: 67%;
+    left: 47%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button2{
+    position: absolute;
+    top: 67%;
+    left: 15%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button3{
+    position: absolute;
+    top: 123%;
+    left: 15%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button4{
+    position: absolute;
+    top: 123%;
+    left: 47%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button5{
+    position: absolute;
+    top: 123%;
+    left: 80%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+/* h2{
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    color: lime;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 220%;   
+}
+.text{
+    position: absolute;
+    top: 160%;
+    left: 30%;
+    color: lime;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 198%; 
+}
+.text1{
+    position: absolute;
+    top: 169%;
+    left: 26%;
+    color: lime;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 198%; 
+}
+.text2{
+    position: absolute;
+    top: 177%;
+    left: 30%;
+    color: lime;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 198%; 
+} */
+.button6{
+    position: absolute;
+    top: 179%;
+    left: 80%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button7{
+    position: absolute;
+    top: 180%;
+    left: 47%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}
+.button8{
+    position: absolute;
+    top: 180%;
+    left: 15%;
+    background-color:lime;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+    text-decoration: none;
+    translate: 0.45;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 80px;
+    text-align: center;
+}

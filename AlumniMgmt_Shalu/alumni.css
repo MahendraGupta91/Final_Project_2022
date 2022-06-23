@@ -1,0 +1,49 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* background-image: url('img/pexels-william-choquette-2641886.jpg'); */
+    
+
+}
+.menu{
+    margin-top: -10px;
+    width: 100%;
+    height: 50px;
+    background-color:cadetblue;
+}
+.menu li{
+    list-style: none;
+    width: 90px;
+    height: 20px;
+    /* background-color: darkcyan; */
+    margin: 3px;
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+    margin-left: 100px;
+    
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.Food{
+    width: 70%;
+    height: 600px;
+    position: absolute;
+    left: 0%;
+    top: 8%;
+    background-image: url('img/poly4.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px white;
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{  background-image: url('img/poly1.jpg'); }
+    35%{  background-image: url('img/poly2.jpg'); }
+    75%{ background-image: url('img/poly3.jpg'); }
+    80%{ background-image: url('img/poly5.jpg'); }
+}

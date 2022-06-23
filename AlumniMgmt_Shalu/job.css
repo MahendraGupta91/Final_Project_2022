@@ -1,0 +1,201 @@
+body{
+    background-image: url(img/office.jpg);
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.first{
+    position: absolute;
+    top: 27%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+.text{
+    text-align: center;
+    font-size: 130%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+}
+.line{
+    color: orange;
+}
+.text1{
+    text-align: center;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.button{
+
+position: absolute;
+top: 85%;
+left: 35%;
+background-color: orangered;
+padding: 4px 20px;
+color: wheat;
+text-transform: uppercase;
+font-size: 18px;
+border-radius: 5px;
+box-shadow: 6px 6px 29px -4px rgb(0, 0, 0,0.75);
+text-decoration: none;
+translate: 0.45;  
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.first:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+.button:hover{
+    background: white;
+   color: orangered;
+}
+
+.secound{
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.secound:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.third{
+    position: absolute;
+    top: 27%;
+    left: 67%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.third:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.fourth{
+    position: absolute;
+    top: 77%;
+    /* left: 67%; */
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.fourth:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.five{
+    position: absolute;
+    top: 77%;
+    left: 35%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.five:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.sixth{
+    position: absolute;
+    top: 77%;
+    left: 67%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.sixth:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.seventh{
+    position: absolute;
+    top: 127%;
+    /* left: 67%; */
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.seventh:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.eight{
+    position: absolute;
+    top: 127%;
+    left: 35%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.eight:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.nine{
+    position: absolute;
+    top: 127%;
+    left: 67%;
+    width: 25%;
+    height: 250px;
+    margin: 80px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    background-color: orange;
+}
+.nine:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    transition-duration: 1s;
+}
+h1{
+    /* position: absolute; */
+    color: whitesmoke;
+    /* top: 20%; */
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+

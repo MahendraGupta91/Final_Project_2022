@@ -1,0 +1,41 @@
+<?php
+include("connection.php");
+error_reporting(0);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcom to Attendance Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img  class="bg" src="bg.jpg" alt="poly. clg anuppur">
+    <div class="container">
+        <h1>Welcome to Online Attendance management</h1>
+        <p>Enter your details and sumbit this form to confirm your attendance management system</p>
+        <p class="summitMsg">Thanks for summitting your form. We are happy to see you joining for the Online Attendance management</p>
+        <form action="index.php" method="post">
+           Name: <input type="text" name="Name" id="Name" placeholder="Enter your Name"><br>
+            Father Name: <input type="text" name="Fathername" id="Fathername" placeholder="Enter your Fathername"><br>
+            Class: <input type="text" name="Class" id="Class"placeholder="Enter your Class"><br>
+            Enrollment_No: <input type="text" name="Enrollment_no" id="Enrollment_No" placeholder="Enter your Enrollment_no"><br>
+            Attendance: <input type="text" name="Attendance" id="Attendance" placeholder="Enter your Attendance"><br>
+            Mobile_no: <input type="text" name="Mobile_no" id="Mobile_no" placeholder="Enter your Mobile_no"><br>
+            Email: <input type="text" name="Email" id="Email" placeholder="Enter your Email"><br>
+            Gender: <input type="text" name="Gender" id="Gender" placeholder="Enter your Gender"><br>
+            Branch: <input type="text" name="Branch" id="Branch" placeholder="Enter your Branch"><br>
+
+            Date: <input type="text" name="Date" id="value" placeholder="Enter your Date"><br>
+            Time: <input type="text" name="Time" id="value" placeholder="Enter your Time"><br>
+
+            
+             <button class="btn" type="submit" name="submit">submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
