@@ -1,0 +1,89 @@
+version: "3.0"
+
+stories:
+
+- story: process of admission
+  steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: admission
+   - action: utter_admission
+
+- story: info of fees
+  steps:
+    - intent: fees
+    - action: utter_fees
+
+- story: info of ppt
+  steps:
+    - intent: ppt
+    - action: utter_ppt
+
+- story: collage info
+  steps:
+  - intent: collage_info
+  - action: utter_info
+
+- story: lab
+  steps:
+   - intent: labs
+   - action: utter_lab
+- story: scholarship process
+  steps:
+    - intent: scholarship
+    - action: utter_scholarship
+- story: history
+  steps:
+    - intent: history
+    - action: utter_history
+- story: bot_challenges
+  steps:
+    - intent: bot_challenges
+    - action: utter_bot
+- story: timetable
+  steps:
+    - intent: timetable
+    - action: utter_timetable
+- story: bye
+  steps:
+   - intent: bye
+   - action: utter_bye
+- story: ok
+  steps:
+   - intent: ok
+   - action: utter_ok
+- story: result
+  steps:
+   - intent: result
+   - action: utter_result
+- story: teacher
+  steps:
+   - intent: Mahendra_sir
+   - action: utter_Mahendra_sir
+- story: teacher2
+  steps:
+   - intent: samant_sir
+   - action: utter_samant_sir
+- story: teacher3
+  steps:
+   - intent: Raju_sir
+   - action: utter_Raju_sir
+- story: teacher4
+  steps:
+   - intent: Rakesh_sir
+   - action: utter_Rakesh_sir
+- story: teacher4
+  steps:
+   - intent: utkarsh_sir
+   - action: utter_utkarsh_sir
+
+- story: teacher5
+  steps:
+   - intent: satendra_sir
+   - action: utter_satendra_sir
+- story: libary
+  steps:
+   - intent: libary
+   - action: utter_libary
+
+

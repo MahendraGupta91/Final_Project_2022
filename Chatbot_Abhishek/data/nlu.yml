@@ -1,0 +1,191 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: admission
+  examples: |
+      - what is the process of admission
+      - how may i get in this collage
+      - process of admission
+      - how i get admission in this collage
+      - admission process
+      - process of admission
+      - how to get admission in this collage
+
+- intent: ppt
+  examples: |
+      - what is ppt exam?
+      - how may i clear ppt?
+      - full form of ppt exam?
+      - ppt?
+      - ppt is what?
+
+- intent: collage_info
+  examples: |
+    - how many branches in this collage
+    - how many branches in this collage in anuppur collage
+    - name of branch in collage
+    - branch in this collage
+    - number of branches in collage
+
+- intent: labs
+  examples: |
+    - in this there are lab
+    - how many labs are in this collage
+    - labs are there in this collage
+
+- intent: fees
+  examples: |
+    - what is the fees structure of this collage
+    - what is amount of fees i paid to get admission in this collage
+    - fees of this collage
+    - how much fees i paid to get admission in this collage
+    - fees of this collage
+    - how much i paid fees in this collage
+    - fees of this collage
+    - how much fees i pay for this collage
+    - amount of fees in this collage
+
+- intent: scholarship
+  examples: |
+    - can i get scholarship in this collage
+    - does this collage provides scholarship
+    - does this collage gives scholarship to students
+    - what is the process of scholarship
+    - may i get scholarship in this collage
+    - scholarship
+    - process of scholarship
+    - how to take scholarship in this collage
+- intent: history
+  examples: |
+    - what is the history of this collage?
+    - what is the history of  collage?
+    - may i know the history of  collage?
+    - this institute was sablish in which year?
+    - when was the collage made?
+    - how long has this collage been running
+    - who is the founder of this collage
+    - this collage starting date
+- intent: bot_challenges
+  examples: |
+    - who are you
+    - I am talking to bot
+    - I am talking to human
+    - are you bot
+    - are you human
+    - who is your founder
+    
+    
+- intent: timetable
+  examples: |
+    - timetable of exam
+    - exam time table 
+    - examination of time table
+    - date of examination
+    - time table of examination
+    - exam starting date
+    - date of examination
+- intent: bye
+  examples: |
+   - bye
+   - goodbye
+   - see you
+   - talk you later
+
+- intent: ok
+  examples: |
+   - ok
+   - thank you
+   - thanks
+   - thanku
+
+- intent: result
+  examples: |
+   - show me result
+   - result
+   - i want to know my result
+   - how to find result
+   - i want to know my marks
+- intent: Mahendra_sir
+  examples: |
+   - who is Mahendra Gupta 
+   - Mahendra Gupta
+   - who is Mahendra sir 
+   - Mahendra sir
+
+- intent: samant_sir
+  examples: |
+   - who is Shawant verma 
+   - Shawant verma
+   - who is Shamant verma 
+   - Shamant verma
+- intent: Raju_sir
+  examples: |
+   - who is raju sing Paraste
+   - raju Paraste
+   - who is raju Paraste 
+   - raju sing Paraste
+   - principal of collage
+   - who is the collage principal
+   - principal of anuppur Collage
+   - Hod of mechanical branch
+   - mechanical HOD
+   - who is the HOD of mechanical
+
+- intent: Rakesh_sir
+  examples: |
+   - who is Rakesh pandey
+   - Rakesh pandey
+   - Rakesh pandey sir 
+   - Rakesh sir
+   - Hod of electrical branch
+   - electrical HOD
+   - who is the HOD of electrical
+- intent: utkarsh_sir
+  examples: |
+   - who is utkarsh sir
+   - utkarsh Agrawal
+   - utkarsh Agrawal sir 
+   - utkarsh Agrawal sir
+   - Hod of CS branch
+   - Hod of Computer Scince branch
+   - C.S HOD
+   - who is the HOD of Computer Scince
+- intent: satendra_sir
+  examples: |
+   - who is satendra sir
+   - Satendra Ahirwal
+   - Satendra Ahirwal sir 
+   - Satendra Ahirwal
+   - Hod of electronic branch
+   - electronic HOD
+   - who is the HOD of electronic
+- intent: libary
+  examples: |
+   - libary
+   - libary of collage
+   - collage libary
+   - is there a libary in the collage
+
+
+
+
+
+
+
+  

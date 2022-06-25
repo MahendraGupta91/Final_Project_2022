@@ -1,0 +1,94 @@
+version: "3.0"
+
+intents:
+  - greet
+  - admission
+  - ppt
+  - collage_info
+  - labs
+  - fees
+  - scholarship
+  - history
+  - bot_challenges
+  - timetable
+  - bye
+  - ok
+  - result
+  - Mahendra_sir
+  - samant_sir
+  - Raju_sir
+  - Rakesh_sir
+  - utkarsh_sir
+  - satendra_sir
+  - libary
+
+responses:
+  utter_greet:
+  - text: "Hey! How may i help you"
+  utter_fees:
+  - text: " Yearly fees is something 8000 and exam fees in depend in your which you every 6 months"
+  utter_ppt:
+  - text: " full form of ppt is pre polytechnic test if you want give this, go and register in mp online"
+  utter_info:
+  - text: " There are 4 brancher in this collage Computer Scince, Electrical ,Machinal ,Electronic"
+  utter_lab:
+  - text: "There are lots of labs like Computer since lab, phyisc lab , Electrical lab and many more"
+  utter_scholarship:
+  - text: " yes goverment provide obc and st/sc student you just need to fill simple form"
+  utter_history:
+  - text: "This institution was established in year 2009-10 under the Department of Technical Education, Madhya Pradesh."
+  utter_bot:
+  - text: " Im bot made by Abhishek Dwivedi 2019 batch"
+  utter_timetable:
+  - text: you can fin there "https://www.rgpvdiploma.in/UploadContent/frm_ViewTT.aspx"
+  utter_admission:
+  - text: firstly you need to clear ppt Exam
+  utter_ok:
+  - text: Ok 
+  utter_bye:
+  - text: Bye
+  utter_result:
+  - text: Here you can find "https://www.rgpvdiploma.in/Exam/ProgramSelect.aspx"
+  utter_Mahendra_sir:
+  - text: "Shri Mahendra Gupta Post (Lecturer CSE) Qualification: B.Tech, M.Tech (JNU New Delhi)"
+    image: "https://gpcanuppur.in/wp-content/uploads/2021/06/mgupta1-262x300.jpg"
+
+  utter_samant_sir:
+  - text: "Shri samant verma Post(Lecturer CSE) Qualification: BE, M.Tech(MANIT Bhopal)"
+    image: "https://gpcanuppur.in/wp-content/uploads/2018/11/Samant_Verma.jpg"
+  
+
+  utter_Raju_sir:
+  - text: "Shri Raju singh Paraste (Principal) Qualification: BE"
+    image: "https://gpcanuppur.in/wp-content/uploads/2018/11/raju_Sir_01.jpg"
+  
+
+  utter_Rakesh_sir:
+  - text: "Rakesh pandey Post(Lecturer ET) Qualification: BE"
+    image: "http://gpcanuppur.in/wp-content/uploads/2018/11/rakesh_kumar_01.jpg"
+  
+
+  utter_utkarsh_sir:
+  - text: "utkarsh Agrawal Post(Lecturer CSE) Qualification: BE"
+    image: "http://gpcanuppur.in/wp-content/uploads/2018/11/utkarsh_agrawal.jpg"
+
+  utter_satendra_sir:
+  - text: "Shri Satendra Ahirwal Post(Lecturer ET) Qualification: BE "
+    image: "http://gpcanuppur.in/wp-content/uploads/2018/11/Satendra_Ahirwal.jpg"
+  utter_libary:
+  - text: "Yes there is a libary here and there are many books in the libary"
+    image: "https://gpcanuppur.in/wp-content/uploads/2018/11/12-300x180.png"
+  
+- intent: hod
+  examples: |
+  - hod 
+  - who is hod of computer 
+  
+  
+
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
